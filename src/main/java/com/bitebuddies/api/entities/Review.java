@@ -1,4 +1,4 @@
-package main.java.com.bitebuddies.api.entities;
+package com.bitebuddies.api.entities;
 
 
 import java.util.ArrayList;
@@ -16,7 +16,9 @@ public class Review {
     @Id
     @GeneratedValue( strategy = GenerationType.AUTO )
     private Long id;
-    private Buddies User;
+    @ManyToOne
+    private Buddies buddies;
+    @OneToMany
     private ArrayList<Dish> Dishes = new ArrayList<>();
 
 

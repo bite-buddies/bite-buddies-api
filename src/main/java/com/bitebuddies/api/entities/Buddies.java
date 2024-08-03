@@ -1,4 +1,4 @@
-package main.java.com.bitebuddies.api.entities;
+package com.bitebuddies.api.entities;
 
 
 import java.util.ArrayList;
@@ -18,7 +18,8 @@ public class Buddies {
     private Long id;
     private String name;
     private String email;
-    private ArrayList<Review> Reviews = new ArrayList<Reviews>();
+    @OneToMany
+    private ArrayList<Review> Reviews = new ArrayList<>();
 
 
     public Buddies() {

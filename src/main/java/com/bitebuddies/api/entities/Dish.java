@@ -1,4 +1,4 @@
-package main.java.com.bitebuddies.api.entities;
+package com.bitebuddies.api.entities;
 
 
 import jakarta.persistence.*;
