@@ -1,4 +1,4 @@
-package com.bitebuddies.api.entities;
+package main.java.com.bitebuddies.api.entities;
 
 
 import jakarta.persistence.*;
@@ -9,19 +9,15 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 @Entity
-public class Restaurant {
+public class Dish {
 
     @Id
     @GeneratedValue( strategy = GenerationType.AUTO )
-    private Long id;
     private String name;
-    private String address;
     private int rating;
-    private float longitude;
-    private float latitude;
 
 
-    public Restaurant() {
+    public Dish() {
 
     }
 
