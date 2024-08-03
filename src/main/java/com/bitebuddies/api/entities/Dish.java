@@ -13,8 +13,10 @@ public class Dish {
 
     @Id
     @GeneratedValue( strategy = GenerationType.AUTO )
-    private String name;
+    private Long dish_id;
+    private String dish_name;
     private int rating;
+    private int review_id;
 
 
     public Dish() {

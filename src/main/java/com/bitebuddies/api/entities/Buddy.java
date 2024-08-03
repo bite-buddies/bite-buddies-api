@@ -11,18 +11,15 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 @Entity
-public class Buddies {
+public class Buddy {
 
     @Id
     @GeneratedValue( strategy = GenerationType.AUTO )
-    private Long id;
+    private Long buddy_id;
     private String name;
-    private String email;
-    @OneToMany
-    private ArrayList<Review> Reviews = new ArrayList<>();
 
 
-    public Buddies() {
+    public Buddy() {
 
     }
 

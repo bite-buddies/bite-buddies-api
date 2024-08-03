@@ -1,0 +1,20 @@
+[
+  {
+    "dish_id": 1,
+    "dish_name": "pizza",
+    "rating": 1,
+    "review_id": 1
+  },
+  {
+    "dish_id": 2,
+    "dish_name": "pizza",
+    "rating": 1,
+    "review_id": 2
+  },
+  {
+    "dish_id": 3,
+    "dish_name": "pizza",
+    "rating": 1,
+    "review_id": 3
+  }
+]

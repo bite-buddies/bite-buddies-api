@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "rest_id": 1,
     "name": "Restaurant1",
     "address": "1614 something way",
     "rating": 1,
@@ -8,7 +8,7 @@
     "latitude": 0.0
   },
   {
-    "id": 2,
+    "rest_id": 2,
     "name": "Restaurant2",
     "address": "gagagaga",
     "rating": 1,
@@ -16,7 +16,7 @@
     "latitude": 0.80
   },
   {
-    "id": 3,
+    "rest_id": 3,
     "name": "Restaurant3",
     "address": "gooogojfod",
     "rating": 1,

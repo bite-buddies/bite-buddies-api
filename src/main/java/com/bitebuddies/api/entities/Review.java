@@ -15,11 +15,10 @@ public class Review {
 
     @Id
     @GeneratedValue( strategy = GenerationType.AUTO )
-    private Long id;
-    @ManyToOne
-    private Buddies buddies;
-    @OneToMany
-    private ArrayList<Dish> Dishes = new ArrayList<>();
+    private Long review_id;
+    private Long buddy_id;
+    private Long rest_id;
+
 
 
     public Review() {

@@ -1,5 +1,4 @@
 package com.bitebuddies.api.service;
-
 import com.bitebuddies.api.entities.Restaurant;
 import com.bitebuddies.api.repository.RestaurantRepository;
 import org.springframework.stereotype.Service;

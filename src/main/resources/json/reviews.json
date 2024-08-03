@@ -1,0 +1,17 @@
+[
+  {
+    "review_id": 1,
+    "buddy_id": 1,
+    "rest_id": 1
+  },
+  {
+    "review_id": 2,
+    "buddy_id": 1,
+    "rest_id": 2
+  },
+  {
+    "review_id": 3,
+    "buddy_id": 1,
+    "rest_id": 3
+  }
+]

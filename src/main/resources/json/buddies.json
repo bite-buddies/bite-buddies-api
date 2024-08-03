@@ -1,0 +1,14 @@
+[
+  {
+    "buddy_id": 1,
+    "name": "User1"
+  },
+  {
+    "buddy_id": 2,
+    "name": "User2"
+  },
+  {
+    "buddy_id": 3,
+    "name": "User3"
+  }
+]
