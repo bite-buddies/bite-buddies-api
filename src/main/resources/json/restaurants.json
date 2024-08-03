@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Restaurant1",
+    "username": "user1",
+    "email": "Restaurant1@april.biz",
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org"
+  },
+  {
+    "id": 2,
+    "name": "Restaurant2",
+    "username": "user2",
+    "email": "Restaurant2@melissa.tv",
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net"
+  },
+  {
+    "id": 3,
+    "name": "Restaurant3",
+    "username": "user3",
+    "email": "Restaurant@yesenia.net",
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info"
+  }
+]
