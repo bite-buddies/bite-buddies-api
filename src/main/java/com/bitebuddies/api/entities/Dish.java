@@ -16,7 +16,7 @@ public class Dish {
     private Long dish_id;
     private String dish_name;
     private int rating;
-    private int review_id;
+    private Long review_id;
 
 
     public Dish() {
